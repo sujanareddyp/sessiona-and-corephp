@@ -1,0 +1,26 @@
+Methods to print a statement using php
+	echo
+	print
+	printf
+===============================================
+In 1 php page how many times php can be open and close?
+	depend on requirements and developer logics.
+======================================================
+	'' or "" which one is best practice ?
+------------------------------------------------------
+	How to create variable in php?
+==========================================================
+	how to combine multiple statement together?
+--------------------------------------------------------=
+	Control structure:
+	->condition:
+		if else 
+		if else if
+		nested if
+		switch case
+	->loop
+		for loop 
+		do while
+		while loop
+		for each
+----------------------------------------------------------

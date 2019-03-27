@@ -1,0 +1,69 @@
+<html>
+	<head>
+		<title>signup</title>
+	</head>
+	<body>
+	<form action="saveuser.php" method="POST">
+		<table align="center" cellpadding="7">
+			<caption><h3>Sign Up</h3></caption>
+			<tr>
+				<th> FullName</th>
+				<td>
+					<input type="text" name="fname">
+				</td>
+			</tr>
+			<tr>
+				<th> Mobile</th>
+				<td>
+					<input type="text" name="mobile" >
+				</td>
+			</tr>
+			
+			
+			
+			<tr>
+				<th>Email</th>
+				<td>
+					<input type="text" name="email">
+				</td>
+			</tr>
+			<tr>
+				<th>Password</th>
+				<td>
+					<input type="password" name="password">
+				</td>
+			</tr>
+			<tr>
+				<th>City</th>
+				<td>
+					<select name="city">
+						<option value="">choosecity</option>
+						<option value="bangalore">Bangalore</option>
+						<option value="pune">Pune</option>
+						<option value="chennai">Chennai</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<th>Pincode</th>
+				<td>
+					<input type="text" name="pincode">
+				</td>
+			</tr>
+			<tr>
+				<th>Address</th>
+				<td>
+					<textarea type="text" name="address" cols="30"></textarea>
+				</td>
+			</tr>
+			<tr>
+				
+				<th colspan="2">
+					<button type="submit">Register</button>
+					<button type="reset">Clear</button>
+				</th>
+			</tr>
+		</table>
+		</form>
+	</body>
+</html>
